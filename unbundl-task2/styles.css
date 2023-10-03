@@ -1,0 +1,190 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center; 
+    background-color: #98A88D;
+    color: #fff;
+}
+
+header p {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+#my-nav {
+    z-index: 1;
+    background-color: transparent;
+}
+
+.logo{
+    position: relative;
+    right: 40%;
+}
+
+.caros-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    bottom: 200px;
+}
+
+.caros-heading {
+    font-family: serif;
+}
+
+.caros-para {
+    margin-bottom: 30px;
+}
+
+.shop-now-button {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.shop-now-button:hover {
+    background-color: #1f2937;
+    color: #FACE93;
+}
+
+.product {
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+ 
+.product-carousel {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 50px;
+}
+
+.product-card-container {
+    display: flex;
+    gap: 50px;
+}
+
+.product-name {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.p-relative {
+    position: relative;
+    bottom: 50px;
+}
+
+section article h2 {
+    font-family: serif;
+}
+
+section article p {
+    opacity: 0.9;
+}
+
+section article button {
+    border: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+    background-color: #FACE93;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+section article button:hover {
+    color: #FACE93;
+    background-color: #000;
+}
+
+section {
+    display: flex;
+    gap: 50px;
+    margin: 0px 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+article {
+    padding: 20px 50px;
+}
+
+.background-sand {
+    background-color: #F2EFEC;
+}
+
+.nack-journal {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nack-journal article {
+    width: 400px;
+    padding: 20px 20px;
+    overflow: hidden;
+}
+
+.nack-journal article img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.nack-journal article div {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 11px;
+    margin:10px 10px 0 0;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+span:hover {
+    cursor: pointer;
+    background-color: #CECCC7;
+}
+
+.nack-journal article h5 {
+    font-family: serif;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.nack-journal article a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    border-bottom: 2px solid #D79381;
+    font-size: 14px;
+}
+
+.nack-journal article a:hover {
+    color: #D79381;
+}
